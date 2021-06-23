@@ -20,13 +20,13 @@ class PagesController {
         ];
         App::get('database')->insert('resultado',$parametros);
 
-        header('Location: /inicio');
+        header('Location: /');
 
     }
     public function delete(){
 
         App::get('database')->delete('resultado',$_POST['id']);
-        header('Location: /inicio');
+        header('Location: /');
     }
         
 }

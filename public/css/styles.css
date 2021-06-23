@@ -1,16 +1,22 @@
 
-.fundo {
-    background-color: rgba(10, 24, 224, 0.795);
-    height: auto;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+.cabecalho {
+    text-align: center;
+
+}
+body {
+    background: #f2f4f6!important;;
 }
 .calculadora{ 
     position: absolute;  
     background-color: black;
     top: 100%;
     left: 40%; 
-    margin-bottom: 50%;   
+    margin-bottom: 50%; 
+    border-radius:15px; 
+    padding: 10px; 
+}
+.calculadora h1 {
+    color:white;
 }
 
 .botao {

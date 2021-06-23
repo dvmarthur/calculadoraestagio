@@ -1,6 +1,6 @@
 <?php
 
-    $router->get('inicio','PagesController@index');
-    $router->post('inicio/create','PagesController@create');
-    $router->post('inicio/delete','PagesController@delete');
+    $router->get('','PagesController@index');
+    $router->post('anotacao/create','PagesController@create');
+    $router->post('anotacao/delete','PagesController@delete');
 ?>

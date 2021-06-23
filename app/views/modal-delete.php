@@ -16,7 +16,7 @@
                 </div>
                 <!--Footer-->
                     <div class="modal-footer flex-center">
-                    <form action="/inicio/delete" method="POST">
+                    <form action="/anotacao/delete" method="POST">
                         <input type="hidden" value="<?= $res->id ?>" name="id">
                         <button type="submit" class="btn  btn-outline-danger">Sim</button>
                     </form>

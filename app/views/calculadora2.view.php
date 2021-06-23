@@ -18,11 +18,11 @@
 </head>
 
 <body>
-
+    <h4 class="cabecalho"> ARTHUR DIAS VIEIRA MOREIRA (32) 998228846 ESTAGIO MEDMAIS </h4>
     <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
         <div class="mb-4">
             <h2>Criar Anotação</h2>
-            <form action="/inicio/create" method="POST">
+            <form action="/anotacao/create" method="POST">
                 <div class="form-group">
                     <label for="inputAddress">Anotações</label>
                     <input type="text" name="nome" class="form-control" id="inputAddress" placeholder="Digite aqui a anotação" required>
